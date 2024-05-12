@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            padding: 0px 20px;
+            background-color: gray;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo>img {
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+        }
+
+        .items>.link {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+        .items {
+            width: 40%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .button>button {
+            padding: 10px 20px;
+            background-color: green;
+            color: white;
+            font-weight: bold;
+        }
+
+        button:hover {
+            color: green;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        .link:hover {
+            color: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="student.jpeg" alt="">
+        </div>
+        <div class="items">
+            <a href="" class="link">Home</a>
+            <a href="" class="link">About</a>
+            <a href="" class="link">Portfolio</a>
+            <a href="" class="link">Service</a>
+            <a href="" class="link">Team</a>
+            <a href="" class="link">Blog</a>
+            <a href="" class="link">Contact</a>
+        </div>
+        <div class="button">
+            <button>Login</button>
+        </div>
+    </nav>
+</body>
+
+</html>

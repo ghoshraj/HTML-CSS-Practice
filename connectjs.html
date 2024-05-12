@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Display : <span id="r"></span></h1>
+    <button onclick="inc()">increment</button>
+    <button onclick="dec()">decrement</button>
+
+    <script>
+        let span = document.getElementById('r');
+        let count = 1;
+        span.textContent = count;
+        function inc(){
+            count++;
+            span.textContent = count;
+        }
+        function dec(){
+            if(count > 1){
+                count--;
+                span.textContent = count
+            }
+        }
+    </script>
+</body>
+</html>
